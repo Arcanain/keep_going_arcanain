@@ -12,7 +12,20 @@
   <exec_depend>launch_ros</exec_depend>
   <exec_depend>ament_index_python</exec_depend>
 
-  <!-- Add runtime dependencies on node packages when launch files are added. -->
+  <exec_depend>dwa_planner</exec_depend>
+  <exec_depend>pure_pursuit_planner</exec_depend>
+  <exec_depend>emcl2</exec_depend>
+  <exec_depend>path_smoother</exec_depend>
+  <exec_depend>arcanain_simulator</exec_depend>
+  <exec_depend>odrive_ros2_control</exec_depend>
+  <exec_depend>rtk_judge</exec_depend>
+  <exec_depend>gnss_preprocessing</exec_depend>
+  <exec_depend>sllidar_ros2</exec_depend>
+  <exec_depend>lidar_based_obstacle_detection</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
