@@ -103,7 +103,7 @@ def generate_launch_description():
         executable='path_publisher',
         output="screen",
         parameters=[{'path_file': os.path.expanduser(
-            '~/ros2_ws/src/path_smoother/path/tsukuba_path_2026/tsukuba_1004_emcl.csv'
+            '~/ros2_ws/src/path_smoother/path/tskuba1107_emcl.csv'
         )}],
     )
     
